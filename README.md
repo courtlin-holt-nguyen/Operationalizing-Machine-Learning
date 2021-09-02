@@ -46,6 +46,7 @@ The project consisted of the following main steps:
 
 This screenshot shows the successful creation of a Security Principal account in my Azure workspace. No errors were returned after running the az ml workspace share command.
 
+<<<<<<< HEAD
 ![Successfully create Service Principal Role](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\Successfully create Service Principal Role.jpg)
 
 
@@ -87,3 +88,6 @@ Apache Benchmark (ab) runs against the HTTP API using authentication keys to ret
 
 
 ## Link to project walk-through screencast
+=======
+![Successfully create Service Principal Role](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/b78f13c899ac72ea4f68834c11f8e0401f96898f/Required%20Screenshots/Successfully%20create%20Service%20Principal%20Role.jpg)
+>>>>>>> b3be02abae9485d255aefd1735640aa024c5ae14
