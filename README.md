@@ -108,7 +108,7 @@ These 2 screenshots show that Logging was enabled by running the provided `logs.
 
 
 
-This screenshot shows that Swagger UI was running on localhost and showing the HTTP API methods and responses for the model
+This screenshot shows that Swagger UI was running on localhost and showing the HTTP API methods and responses for the model.
 
 ![12 Swagger API interaction](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\12 Swagger API interaction.jpg)
 
@@ -130,12 +130,21 @@ This screenshot shows that Apache Benchmark (ab) runs against the HTTP API using
 
 ###### Create and publish a pipeline
 
-- The pipeline section of Azure ML studio, showing that the pipeline has been created
-- 
-- The Bankmarketing dataset with the AutoML module
-- 
-- The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
-- 
+This screenshot shows the Pipelines section of Azure ML Studio and the pipelines that have been successfully created. Note, the failed pipelines were due to various snippets of legacy code in the Jupyter Notebook that referenced the Bike Sharing experiment instead of the Bank Marketing experiment.   
+
+![15 Azure ML pipelines section showing created pipelines](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\15 Azure ML pipelines section showing created pipelines.jpg)
+
+
+
+This screenshot shows that the Bankmarketing dataset was used as the dataset for the automl_module in the Pipeline. On the right side of the screenshot, it also shows the REST endpoint for the Published Pipeline with a status of "Active".
+
+![17 Azure Published Pipelines Overview 3](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\17 Azure Published Pipelines Overview 3.jpg)
+
+
+
+The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
+
+
 
 
 
