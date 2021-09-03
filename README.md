@@ -165,5 +165,5 @@ This screenshot from Azure ML studio shows that the pipeline endpoint has a Stat
 
 ## Link to project walk-through screencast
 
-![youTube Link](https://youtu.be/kYGW7kUUAc0)
+https://youtu.be/kYGW7kUUAc0
 
