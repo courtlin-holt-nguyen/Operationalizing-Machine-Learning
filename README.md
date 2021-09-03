@@ -28,7 +28,7 @@ This project consisted of the following main steps:
 - **Consume Model Endpoints:** The enpoint.py script was used to interact with the deployed model by sending it test data and receiving back a classification prediction (e.g. Yes or No). The endpoint.py script had to be modified to include the specific *scoring_uri* for the deployed model and the authentication *key* for the model. The URI was located in the *Details* tab of the deployed model (above the Swagger URI) and the key was located on the Consume tab. Additionally, the model response time was also benchmarked using Apache Benchmark and the benchmark.sh file. Based on the results of the benchmarking using first 10 and then 100 sample requests, the model can accommodate approximately 3 requests per second and there were no failed requests.
 - **Create, Publish and Consume a Pipeline:** For the second part of the project, a Jupyter Notebook-based pipeline  was created with the same key, URI, dataset, compute cluster, and model name created in Part 1 to create, publish and consume the AutoML experiment. This step required the `config.json` file (downloaded from the Azure workspace > Settings) to be located in the same working directory as the Notebook. The Notebook allows for the entire process of training and deploying the model to be automated.
 - **Documentation:** The final step in the project was the creation of documentation. The required documentation includes:
-  - 1) [My Screencast Demo](https://youtu.be/kYGW7kUUAc0) showing a working deployed model, a deployed pipeline, an available AutoML model and successful API requests to the deployed Endpoint with a JSON payload
+  - 1) [My Screencast Demo](https://youtu.be/ORyrSz1KLvs) showing a working deployed model, a deployed pipeline, an available AutoML model and successful API requests to the deployed Endpoint with a JSON payload
     2) this README file describing the project's main steps.
 
 ## Future Improvements
@@ -165,5 +165,5 @@ This screenshot from Azure ML studio shows that the pipeline endpoint has a Stat
 
 ## Link to project walk-through screencast
 
-https://youtu.be/kYGW7kUUAc0
+[YouTube Link](https://youtu.be/ORyrSz1KLvs)
 
