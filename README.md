@@ -16,9 +16,9 @@ The Bank Marketing dataset from UCI ( [link](https://automlsamplenotebookdata.bl
 
 ## **Architectural Diagram**
 
-TBD
+![Architectural Design Project Overview](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/52064b639b373ce3d08244761d5e844b8c808c73/Required%20Screenshots/Architectural%20Design%20Project%20Overview.jpg)
 
-The project consisted of the following main steps:
+This project consisted of the following main steps:
 
 - **Authentication:** The Azure Machine Learning Extension is installed in the Workspace. A Security Principal account was then created to securely interact with Azure Machine Learning Studio over the internet.
 - **Automated ML Experiment:** In this step, the chosen dataset (e.g. Bank Marketing) was uploaded into the Azure Machine Learning Studio. Next, a new experiment was created using AutoML, a compute cluster was created, the type of machine learning task was chosen (e.g. classification for this experiment), the exit criteria were defined (e.g. 1 hour max duration for the training time) and then the model was trained on the dataset using the defined compute cluster.
@@ -33,10 +33,23 @@ The project consisted of the following main steps:
 
 ## Future Improvements
 
-1. Class imbalance issue
-2. Use a parallel run step in the pipeline
+1. Class imbalance issue - this project could be improved by addressing the issue of class imbalance that exists in the dataset. As shown in the screenshot, the number of "Yes" outcomes only represent 11% of the total responses in the dataset. This is a problem because a simple model could be trained to always predict a "No" response and it would be correct nearly 90% of the time.  
+
+![20 Areas for improvement Class imbalance](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\20 Areas for improvement Class imbalance.jpg)
 
 
+
+![20 Areas for improvement Class imbalance 2](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\20 Areas for improvement Class imbalance 2.jpg)
+
+
+
+
+
+1. Use a Parallel Run Step in the pipeline - An additional improvement would be to use a parallel run step in the pipeline to speed up model training by breaking the dataset into smaller batches and processing them at the same time.
+
+   https://docs.microsoft.com/en-us/python/api/azureml-pipeline-steps/azureml.pipeline.steps.parallel_run_step.parallelrunstep?view=azure-ml-py
+
+![ParallelRunStep Class](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\ParallelRunStep Class.jpg)
 
 ## Required Screenshots
 
@@ -142,31 +155,21 @@ This screenshot shows that the Bankmarketing dataset was used as the dataset for
 
 
 
-The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
-
-
-
-
-
 ###### Configure a pipeline with the Python SDK
 
-- A screenshot of the Jupyter Notebook is included in the submission showing the “Use RunDetails Widget” with the step runs
-- 
+In this screenshot, the Jupyter Notebook shows “RunDetails Widget” with the step runs that were performed. 
+
+
+
+![18 Pipeline created with Jupyter Notebook Python SDK](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\18 Pipeline created with Jupyter Notebook Python SDK.jpg)
 
 
 
 ###### Use a REST endpoint to interact with a Pipeline
 
-- ML studio showing the pipeline endpoint as Active
-- 
-- ML studio showing the scheduled run
-- 
+This screenshot from Azure ML studio shows that the pipeline endpoint has a Status of "Active"
 
-
-
-
-
-
+![16 Azure Published Pipelines Overview 1](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\16 Azure Published Pipelines Overview 1.jpg)
 
 
 
