@@ -35,7 +35,7 @@ This project consisted of the following main steps:
 
 1. Class imbalance issue - this project could be improved by addressing the issue of class imbalance that exists in the dataset. As shown in the screenshot, the number of "Yes" outcomes only represent 11% of the total responses in the dataset. This is a problem because a simple model could be trained to always predict a "No" response and it would be correct nearly 90% of the time.  
 
-![20 Areas for improvement Class imbalance](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\20 Areas for improvement Class imbalance.jpg)
+![20 Areas for improvement Class imbalance](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/20%20Areas%20for%20improvement%20Class%20imbalance%202.jpg)
 
 
 
@@ -49,7 +49,7 @@ This project consisted of the following main steps:
 
    https://docs.microsoft.com/en-us/python/api/azureml-pipeline-steps/azureml.pipeline.steps.parallel_run_step.parallelrunstep?view=azure-ml-py
 
-![ParallelRunStep Class](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\ParallelRunStep Class.jpg)
+![ParallelRunStep Class](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/ParallelRunStep%20Class.jpg)
 
 ## Required Screenshots
 
@@ -59,43 +59,35 @@ This project consisted of the following main steps:
 
 This screenshot shows the successful creation of a Security Principal account in my Azure workspace. No errors were returned after running the az ml workspace share command.
 
-![1 Successfully create Service Principal Role](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\1 Successfully create Service Principal Role.jpg)
-
-
+![1 Successfully create Service Principal Role](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/1%20Successfully%20create%20Service%20Principal%20Role.jpg)
 
 ###### Create a new AutoML run
 
-This screenshot shows that the "Bankmarketing" dataset is registered and available in Azure ML Studio ![2 Registered dataset bankmarketing](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\2 Registered dataset bankmarketing.jpg)
-
-
+This screenshot shows that the "Bankmarketing" dataset is registered and available in Azure ML Studio ![2 Registered dataset bankmarketing](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/2%20Registered%20dataset%20bankmarketing.jpg)
 
 This screenshot shows that the bankmarketing-automl experiment was completed in 29 minutes and 22 seconds.
 
-![3 Automl experiment completed](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\3 Automl experiment completed.jpg)
+![3 Automl experiment completed](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/3%20Automl%20experiment%20completed.jpg)
 
 
 
 This screenshot shows the summary statistics about the best model (a Voting Ensemble model)
 
-![4 Best Model Summary](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\4 Best Model Summary.jpg)
-
-
+![4 Best Model Summary](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/4%20Best%20Model%20Summary.jpg)
 
 This screenshot shows the best model had an Accuracy of 0.91927
 
-![5 Best Model Summary 2](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\5 Best Model Summary 2.jpg)
-
-
+![5 Best Model Summary 2](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/5%20Best%20Model%20Summary%202.jpg)
 
 This screenshot shows the Explanation about the most important features of the model
 
-![6 Best Model Summary 3](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\6 Best Model Summary 3.jpg)
+![6 Best Model Summary 3](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/6%20Best%20Model%20Summary%203.jpg)
 
 
 
 This screenshot shows the precision and recall curves
 
-![7 Best Model Summary 4](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\7 Best Model Summary 4.jpg)
+![7 Best Model Summary 4](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/7%20Best%20Model%20Summary%204.jpg)
 
 
 
@@ -103,39 +95,37 @@ This screenshot shows the precision and recall curves
 
 The Endpoints section in Azure ML Studio, shows that the model was deployed with Application Insights disabled. 
 
-![8 Best model deployed without App Insights](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\8 Best model deployed without App Insights.jpg)
+![8 Best model deployed without App Insights](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/8%20Best%20model%20deployed%20without%20App%20Insights.jpg)
 
 
 
 This screenshot now shows that “Application Insights enabled” says “true” after being modified with the Python SDK.
 
-![9 Application insights enabled after Python SDK](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\9 Application insights enabled after Python SDK.jpg)
-
-
+![9 Application insights enabled after Python SDK](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/9%20Application%20insights%20enabled%20after%20Python%20SDK.jpg)
 
 These 2 screenshots show that Logging was enabled by running the provided `logs.py` script
 
-![10 Application insights enabled - logs generated](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\10 Application insights enabled - logs generated.jpg)
+![10 Application insights enabled - logs generated](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/10%20Application%20insights%20enabled%20-%20logs%20generated.jpg)
 
-![11 Application insights enabled - logs generated GUI](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\11 Application insights enabled - logs generated GUI.jpg)
+![11 Application insights enabled - logs generated GUI](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/11%20Application%20insights%20enabled%20-%20logs%20generated%20GUI.jpg)
 
 
 
 This screenshot shows that Swagger UI was running on localhost and showing the HTTP API methods and responses for the model.
 
-![12 Swagger API interaction](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\12 Swagger API interaction.jpg)
+![12 Swagger API interaction](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/12%20Swagger%20API%20interaction.jpg)
 
 
 
 This screenshot shows that `endpoint.py` script ran against the API producing JSON output from the model. The result was "no" for the sample data provided in the JSON payload.
 
-![13 Using endpoint-py to interact with the API](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\13 Using endpoint-py to interact with the API.jpg)
+![13 Using endpoint-py to interact with the API](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/13%20Using%20endpoint-py%20to%20interact%20with%20the%20API.jpg)
 
 
 
 This screenshot shows that Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results. In this case, 100 sample requests were run against the endpoint ; 3.15 requests per second were handled by the API, on average. 
 
-![14 Apache benchmark runs against the endpoint](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\14 Apache benchmark runs against the endpoint.jpg)
+![14 Apache benchmark runs against the endpoint](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/14%20Apache%20benchmark%20runs%20against%20the%20endpoint.jpg)
 
 
 
@@ -145,13 +135,13 @@ This screenshot shows that Apache Benchmark (ab) runs against the HTTP API using
 
 This screenshot shows the Pipelines section of Azure ML Studio and the pipelines that have been successfully created. Note, the failed pipelines were due to various snippets of legacy code in the Jupyter Notebook that referenced the Bike Sharing experiment instead of the Bank Marketing experiment.   
 
-![15 Azure ML pipelines section showing created pipelines](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\15 Azure ML pipelines section showing created pipelines.jpg)
+![15 Azure ML pipelines section showing created pipelines](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/15%20Azure%20ML%20pipelines%20section%20showing%20created%20pipelines.jpg)
 
 
 
 This screenshot shows that the Bankmarketing dataset was used as the dataset for the automl_module in the Pipeline. On the right side of the screenshot, it also shows the REST endpoint for the Published Pipeline with a status of "Active".
 
-![17 Azure Published Pipelines Overview 3](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\17 Azure Published Pipelines Overview 3.jpg)
+![17 Azure Published Pipelines Overview 3](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/17%20Azure%20Published%20Pipelines%20Overview%203.jpg)
 
 
 
@@ -161,7 +151,7 @@ In this screenshot, the Jupyter Notebook shows “RunDetails Widget” with the 
 
 
 
-![18 Pipeline created with Jupyter Notebook Python SDK](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\18 Pipeline created with Jupyter Notebook Python SDK.jpg)
+![18 Pipeline created with Jupyter Notebook Python SDK](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/18%20Pipeline%20created%20with%20Jupyter%20Notebook%20Python%20SDK.jpg)
 
 
 
@@ -169,9 +159,11 @@ In this screenshot, the Jupyter Notebook shows “RunDetails Widget” with the 
 
 This screenshot from Azure ML studio shows that the pipeline endpoint has a Status of "Active"
 
-![16 Azure Published Pipelines Overview 1](C:\Users\Courtlin\Documents\GitHub\Operationalizing_Machine_Learning\Required Screenshots\16 Azure Published Pipelines Overview 1.jpg)
+![16 Azure Published Pipelines Overview 1](https://github.com/icenine81/Operationalizing_Machine_Learning/blob/47798a1d29f4cecf821d426726bb41302d2dcef5/Required%20Screenshots/16%20Azure%20Published%20Pipelines%20Overview%201.jpg)
 
 
 
 ## Link to project walk-through screencast
+
+![youTube Link](https://youtu.be/kYGW7kUUAc0)
 
